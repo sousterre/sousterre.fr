@@ -1,4 +1,4 @@
-# sousterre.fr
+# sousterre.fr [![Update Vault content & Deploy to Github Pages](https://github.com/sousterre/sousterre.fr/actions/workflows/publish-content.yaml/badge.svg)](https://github.com/sousterre/sousterre.fr/actions/workflows/publish-content.yaml)
 
 ## About the Generator
 
