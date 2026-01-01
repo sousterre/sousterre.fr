@@ -4,7 +4,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Sous Terre",
-    pageTitleSuffix: "",
+    pageTitleSuffix: " | Sous Terre",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -19,7 +19,8 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        //body: "Source Sans Pro",
+        body: "Atkinson Hyperlegible",
         code: "IBM Plex Mono",
       },
       colors: {
