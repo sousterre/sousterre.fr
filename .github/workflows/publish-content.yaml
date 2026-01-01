@@ -16,3 +16,6 @@ jobs:
           ref: main
           ssh-key: ${{ secrets.ROAM_PULLER }}
           path: content
+      - name: Check Content
+        run: |
+          ls -alR content
