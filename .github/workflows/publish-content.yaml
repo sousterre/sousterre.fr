@@ -38,7 +38,7 @@ jobs:
           path: content
 
       - name: Ensure Quartz builds, check bundle info
-        run: npx quartz build --bundleInfo -d public
+        run: npx quartz build -d content
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
