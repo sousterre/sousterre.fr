@@ -1,4 +1,4 @@
-name: Update Vault content
+name: Update Vault content & Deploy to Github Pages
 
 on:
   schedule:
