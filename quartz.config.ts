@@ -8,7 +8,9 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+       provider: "umami",
+       host: "sousterre.fr",
+       websiteId: "f779b606-77b3-40cf-9742-17c77b08c691"
     },
     locale: "fr-FR",
     baseUrl: "sousterre.fr",
