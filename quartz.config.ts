@@ -9,7 +9,6 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: {
        provider: "umami",
-       host: "sousterre.fr",
        websiteId: "f779b606-77b3-40cf-9742-17c77b08c691"
     },
     locale: "fr-FR",
